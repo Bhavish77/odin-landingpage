@@ -1,0 +1,159 @@
+
+body {
+    padding: 0;
+    margin: 0;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+}
+
+
+.header-logo {
+    height: 60px;
+    width: 60px;
+    
+   
+}
+
+
+ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    color: #f9faf8;
+    
+
+}
+
+li a {
+    color: #f9faf8;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    padding: 140px;
+    background-color: #1F2937;
+    color: #f9faf8;
+}
+
+
+.header-box-1 {
+   
+    flex: 1;
+    background-color: #1F2937;
+}
+
+.header-box-1 button{
+   
+    
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.header-img {
+    
+      flex: 1;
+}
+
+.header-image {
+    height: 100%;
+    width: 100%;
+}
+
+.content-heading {
+    text-align: center;
+
+}
+
+
+.content-box {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+}
+
+
+p {
+    font-size: 15px;
+}
+
+blockquote {
+    text-align: center;
+    background-color: #E5E7EB;
+    padding: 150px;
+    margin: 0;
+    font-size: larger;
+}
+
+
+.cta {
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    justify-content: center;
+    background-color: #3882f6;
+    /* border: 200px solid white; */
+    border-left: 150px;
+    border-right: 150px;
+    border-bottom: 100px;
+    border-top: 100px;
+    border-style: solid;
+    border-color:#f9faf8;
+    gap: 100px;
+   
+}
+
+.cta-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.cta-2 {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cta-1 h2 {
+    margin: 0;
+}
+
+
+.footer {
+    text-align: center;
+    padding: 50px;
+    color: aliceblue;
+    background-color: #1F2937;
+}
+
+
+.cta-2 button {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    border-color: #f9faf8;
+}
+
+
+.cimg {
+    
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+}
